@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 185px;
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    list-style: none;
+
+}
+
+.right ul li span {
+    padding: 0 5px;
+}
+
+.main-area {
+    padding: 100px 142px;
+}
+
+.title h1 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 48px;
+}
+
+.title2 {
+    margin: 50px 0px;
+
+}
+
+.title2 h3 {
+    font-weight: 400;
+    line-height: 1.3rem;
+    font-size: 24px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.btn {
+    margin-bottom: 62px;
+    text-align: center;
+}
+
+.btn-download {
+    padding: 15px;
+    background-color: #00b6d1;
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+.btn-download:hover {
+    background-color: #0493a9da;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.logo-version{
+    margin-top: 39px;
+    padding: 13px 50px;
+    display: flex;
+    gap: 20px;
+}
+.logo-about img{
+    height: 60px;
+}
+
+.text-version{
+    display: flex;
+    align-items: center;
+   
+}
+.text-version h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+.text-version small{
+    margin-top: 8px;
+    font-size: 16px;
+}
+.text-version small a{
+    text-decoration: none;
+    color: black;
+}
+.version-download {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px;
+    gap:0px 10px;
+    height: 500px;
+}
+
+.text_bgc_box {
+    background: #f9f9f9;
+    padding-top: 20px;
+    padding-right: 14px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    text-align: center;
+    margin-bottom: 9.7%;
+
+}
+
+.bgc h3 {
+    font-weight: bold;
+}
+
+.version-box{
+    height: 80px;
+}
+.dwn-btn {
+    position: relative;
+    /* top: 45%; */
+    display: block;
+    margin: auto;
+    /* margin-top: 30px; */
+
+}
+
+.bit {
+    padding: 10px 10px;
+    border: none;
+    border-width: 0px !important;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: normal;
+}
+.bit a {
+    text-decoration: none;
+    color: white;
+}
+.blue {
+    background-color: #00b6d1;
+
+}
+
+.green {
+    background-color: #5cb85c;
+}
